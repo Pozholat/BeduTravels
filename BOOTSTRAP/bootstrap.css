@@ -1,0 +1,38 @@
+.clases {
+    display: flex;
+    justify-content: space-between;
+}
+
+.jumbotron {
+    background-image: url("bosques-fantasticos-china.jpg");
+    opacity: 0.3;
+    background-repeat: no-repeat;
+    margin: 0, 50px, 0;
+    padding: 0;
+}
+
+.bosque {
+    z-index: auto;
+}
+.navbar {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+h1,
+p,
+a {
+    margin-left: 50px;
+}
+
+section {
+    width: 100%;
+    height: 80px;
+}
+#icons-container {
+    font-size: 500%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
